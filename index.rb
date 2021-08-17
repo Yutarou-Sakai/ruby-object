@@ -31,3 +31,13 @@ p symbol_hs
 
 # {"key"=>"value"}
 # {:key=>100}
+
+
+
+p Dir.pwd
+p File.open('test.text', 'w')
+p Dir.glob('/Users/sakai_yutarou/code/ruby-object/*')
+
+# "/Users/sakai_yutarou/code/ruby-object"
+# <File:test.text>
+# ["/Users/sakai_yutarou/code/ruby-object/test.text", "/Users/sakai_yutarou/code/ruby-object/index.rb"]
