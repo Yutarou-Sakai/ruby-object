@@ -10,3 +10,12 @@ end
 # インデックスの3番目は dd です
 
 
+ar = %w'aa bb cc dd'
+
+ar.map! do |v|
+  v + '999'
+end
+
+p ar
+
+# ["aa999", "bb999", "cc999", "dd999"]
