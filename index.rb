@@ -41,3 +41,13 @@ p Dir.glob('/Users/sakai_yutarou/code/ruby-object/*')
 # "/Users/sakai_yutarou/code/ruby-object"
 # <File:test.text>
 # ["/Users/sakai_yutarou/code/ruby-object/test.text", "/Users/sakai_yutarou/code/ruby-object/index.rb"]
+
+
+
+time = Time.new
+jp = time.strftime('%Y年%m月%d日 %H:%M')
+p time
+p jp
+
+# 2021-08-17 11:20:41 +0900
+# "2021年08月17日 11:17"
