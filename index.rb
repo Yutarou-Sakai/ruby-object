@@ -10,6 +10,7 @@ end
 # インデックスの3番目は dd です
 
 
+
 ar = %w'aa bb cc dd'
 
 ar.map! do |v|
@@ -19,3 +20,14 @@ end
 p ar
 
 # ["aa999", "bb999", "cc999", "dd999"]
+
+
+
+hs = { 'key' => 'value' }
+symbol_hs = { key: 100 }
+
+p hs
+p symbol_hs
+
+# {"key"=>"value"}
+# {:key=>100}
