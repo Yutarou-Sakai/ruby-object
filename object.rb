@@ -1,3 +1,6 @@
+require './module.rb'
+
+
 # 冷蔵庫 モデルA クラス
 class ReizoukoA
   # 設定温度を受け取ってインスタンス変数に保持する
@@ -39,7 +42,7 @@ class ReizoukoA
     puts ''
   end
 
-  
+  include Power
 end
 
 
